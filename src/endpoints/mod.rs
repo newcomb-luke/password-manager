@@ -1,0 +1,10 @@
+mod auth;
+mod get_vault;
+mod register;
+mod update_key;
+mod update_vault;
+pub use auth::*;
+pub use get_vault::*;
+pub use register::*;
+pub use update_key::*;
+pub use update_vault::*;
