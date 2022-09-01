@@ -1,2 +1,6 @@
 [global.databases]
 sqlite_data_db = { url = "data.db", pool_size = 1 }
+
+[debug]
+address = "127.0.0.1"
+port = 8000
